@@ -1,0 +1,12 @@
+[package]
+name = "shc_decode"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gentoli"]
+
+[dependencies]
+base64-url = "1.4.10"
+libflate = "1.1.2"
+bardecoder = "0.3.0"
+image = "0.23"
+clap = { version = "3.0.14", features = ["derive"] }
